@@ -1,5 +1,7 @@
 ﻿static void main()
 {
-    Console.WriteLine("Hello, World!");
+    int i = 0;
+    i++;
+    Console.WriteLine(i);
 }
 main();
