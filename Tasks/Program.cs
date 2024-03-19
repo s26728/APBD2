@@ -1,9 +1,9 @@
 ﻿static float average(int[] input)
 {
     float res = 0;
-    foreach (var v in input)
+    foreach (var l in input)
     {
-        res += v;
+        res += l;
     }
     return res/input.Length;
 }
