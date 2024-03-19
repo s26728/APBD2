@@ -1,8 +1,11 @@
-﻿static void main()
+﻿static float average(int[] input)
 {
-    for (int i = 0; i < 10; i++)
+    float res = 0;
+    foreach (var v in input)
     {
-        Console.WriteLine(i);
+        res += v;
     }
+    return res/input.Length;
 }
-main();
+int[] arr = new []{1, 12, 0, 3, 4, 1};
+Console.WriteLine(average(arr));
